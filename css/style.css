@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #3a3a3a;
+    
+}
+/* header start  */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 60px 0;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{}
+.logo a{
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.menu{}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+    margin-right: 34px;
+}
+
+.menu ul li:last-child{
+    margin-right: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600;
+    transition: .3s;
+}
+.menu li:hover a{
+    color: #E02C6D;
+    transform: scale(1.5);
+}
+.menu ul li a i{
+    font-size: 20px;
+    color: #E02C6D;
+}
+
+/* banner start */
+.banner{}
+.banner_main{
+    display: flex;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.banner_content{
+    
+}
+.banner_content h2{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-right: 10%;
+}
+.banner_content p{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.banner_content button{
+    width: 196px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.banner_img{}
+.banner_img img{
+    width: 100%;
+}
+/* banner end  */
+
+/* sponsor */
+.sponsor{
+    padding: 50px;
+}
+
+
+.sponsor_logo{}
+.sponsor_logo img{
+    width: 100%;
+}
+
+
+/* popular section  */
+
+.popular_main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+}
+.popular h2{
+    text-align: center;
+}
+.popular_single{
+    padding: 15px;
+    width: 400px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.popular_single h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+.popular_single h4 {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+.popular_single p {
+	font-size: 14px;
+	font-weight: 700;
+	color: #787885;
+	line-height: 25px;
+	margin-bottom: 0;
+}
+.rating {
+	display: flex;
+	align-items: center;
+	height: 25px;
+}
+.rating i{
+    margin-right: 5px;
+    color: #FB8200;
+}
+.rating p{
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    
+}
+.ps_img{
+    
+}
+.ps_img img{
+    width: 100%;
+}
+.see_all{
+    color: #E02C6D;
+    text-align: end;
+    text-decoration: none;
+    font-weight: 700;
+}
+.se_all{
+    width: 70%;
+    margin: 50px 14% 0 auto;
+    text-align: right !important;
+}
+.see_all i {
+	margin-left: 5px;
+}
+
+/* featured section  */
+
+.featured{
+    padding: 100px 0;
+}
+.featured_main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.featured_img{
+    width: 700px;
+}
+.featured_img img{
+    width: 100%;
+}
+.featured_content{}
+.featured_content h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+.featured_content p{
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.featured_content button{
+    width: 155px;
+    height: 44px;
+    border-radius: none;
+    border: none;
+    background-color: #E02C6D;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+}
+
+
+/* footer section  */
+footer {
+    padding: 50px;
+    text-align: center;
+    background-color: #0A0826;
+}
+.footer_main h3{
+    color: white;
+    margin: 0;
+}
+.footer_main p{
+    color: white;
+}
+.social a{
+    margin-right: 20px;
+}
+.social a:hover i{
+    color: #E02C6D;
+    transform: scale(1.5);
+}
+.social a:last-child{
+    margin-right: 0;
+}
+.social a i{
+    color: white;
+    font-size: 25px;
+    transition: .3s;
+}
